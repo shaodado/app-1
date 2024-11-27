@@ -55,62 +55,80 @@ public class SceneInfo {
         };
         return myListData;
     }
-    public static ArrayList<SceneInfo> getMyListDataArrayList(){
+    public static ArrayList<SceneInfo> getMyListDataArrayList() {
         ArrayList<SceneInfo> myList = new ArrayList<SceneInfo>();
-        String description = "萬里長城";
-        int imgId = R.drawable.longtown;
-        String country = "中國";
-        SceneInfo mysceneInfo = new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);
-        //-----------------------------------
-        description = "紫禁城";
-        imgId = R.drawable.purplecity;
-        country = "中國";
-        mysceneInfo = new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);
-        //-----------------------------------
-        description = "圓明園";
-        imgId = R.drawable.grave;
-        country = "中國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);
-        //-----------------------------------
-        description = "巴黎鐵塔";
-        imgId = R.drawable.parispedal;
-        country = "法國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "凡爾賽宮";
-        imgId = R.drawable.versailles;
-        country = "法國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "塞納河";
-        imgId = R.drawable.seineriver;
-        country = "法國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "孔廟";
-        imgId = R.drawable.confuciustemple;
-        country = "台灣";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "大笨鐘";
-        imgId = R.drawable.bigben;
-        country = "英國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "新天鵝堡";
-        imgId = R.drawable.schwansteincastle;
-        country = "德國";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);//-----------------------------------
-        description = "城隍廟";
-        imgId = R.drawable.citygodtemple;
-        country = "台灣";
-        mysceneInfo =new SceneInfo(description, imgId, country);
-        myList.add(mysceneInfo);
+        String[] description = {"萬里長城", "紫禁城", "圓明園", "巴黎鐵塔",
+                "凡爾賽宮", "塞納河", "孔廟", "大笨鐘", "新天鵝堡", "城隍廟"};
+        int[] imgId = {R.drawable.longtown, R.drawable.purplecity, R.drawable.grave,
+                R.drawable.parispedal, R.drawable.versailles, R.drawable.seineriver,
+                R.drawable.confuciustemple, R.drawable.bigben, R.drawable.schwansteincastle,
+                R.drawable.citygodtemple};
+        String[] country = {"中國", "中國", "中國", "法國", "法國", "法國", "台灣", "英國", "德國", "台灣"};
+        for (int i = 0; i < description.length; i++) {
+                SceneInfo mysceneInfo = new SceneInfo(description[i], imgId[i], country[i]);
+                myList.add(mysceneInfo);
+            }
+            return myList;
+//        String description = "萬里長城";
+//        int imgId = R.drawable.longtown;
+//        String country = "中國";
+//        SceneInfo mysceneInfo = new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "紫禁城";
+//        imgId = R.drawable.purplecity;
+//        country = "中國";
+//        mysceneInfo = new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "圓明園";
+//        imgId = R.drawable.grave;
+//        country = "中國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "巴黎鐵塔";
+//        imgId = R.drawable.parispedal;
+//        country = "法國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "凡爾賽宮";
+//        imgId = R.drawable.versailles;
+//        country = "法國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "塞納河";
+//        imgId = R.drawable.seineriver;
+//        country = "法國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "孔廟";
+//        imgId = R.drawable.confuciustemple;
+//        country = "台灣";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "大笨鐘";
+//        imgId = R.drawable.bigben;
+//        country = "英國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "新天鵝堡";
+//        imgId = R.drawable.schwansteincastle;
+//        country = "德國";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
+//        //-----------------------------------
+//        description = "城隍廟";
+//        imgId = R.drawable.citygodtemple;
+//        country = "台灣";
+//        mysceneInfo =new SceneInfo(description, imgId, country);
+//        myList.add(mysceneInfo);
 
-        return myList;
+//        return myList;
+        }
     }
-}

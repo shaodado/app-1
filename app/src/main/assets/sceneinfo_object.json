@@ -1,0 +1,63 @@
+{
+  "台灣": [
+    {
+      "name": "孔廟",
+      "country": "台灣",
+      "imgFile": "R.drawable.confucius_temple"
+    },
+    {
+      "name": "城隍廟",
+      "country": "台灣",
+      "imgFile": "R.drawable.city_god_temple"
+    }
+  ],
+  "中國": [
+    {
+      "name": "萬里長城",
+      "country": "中國",
+      "imgFile": "R.drawable.long_wall"
+    },
+    {
+      "name": "紫禁城",
+      "country": "中國",
+      "imgFile": "R.drawable.purple_palace"
+    },
+    {
+      "name": "圓明園",
+      "country": "中國",
+      "imgFile": "R.drawable.yuan_ming_yuan"
+    }
+  ],
+  "法國": [
+    {
+      "name": "巴黎鐵塔",
+      "country": "法國",
+      "imgFile": "R.drawable.eiffel_tower"
+    },
+    {
+      "name": "凡爾賽宮",
+      "country": "法國",
+      "imgFile": "R.drawable.palace_of_versailles"
+    },
+    {
+      "name": "塞納河",
+      "country": "法國",
+      "imgFile": "R.drawable.seine"
+    }
+  ],
+  "英國": [
+    {
+      "name": "大笨鐘",
+      "country": "英國",
+      "imgFile": "R.drawable.big_ben"
+    }
+  ],
+  "德國": [
+    {
+      "name": "新天鵝堡",
+      "country": "德國",
+      "imgFile": "R.drawable.new_swan_castle"
+    }
+  ]
+
+}
